@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edificio</title>
+    <link rel="stylesheet" href="edificio.css">
+</head>
+<body class="noiseW">
+    <div class="contenedorEdificio">
+        <object id="edificio" type="image/svg+xml" data="edificio.svg"></object>
+        <div id="relleno"></div>
+    </div>
+    <dialog class="modal">
+        <form method="dialog">
+            <label for="">Me interesa saber sobre la habitación : <strong></strong> </label>
+            <input type="text" class="name" placeholder="Nombre Completo">
+            <button class="whatsapp" type="submit" onclick="sendwhatsapp();">Whatsapp me 💬</button>
+            <button class="cerrar">Cancelar ✖</button>
+        </form>
+    </dialog>
+    <script src="edificio.js"></script>
+</body>
+</html>
